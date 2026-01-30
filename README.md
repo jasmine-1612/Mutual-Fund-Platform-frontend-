@@ -220,13 +220,10 @@ fetch(`${BASE_URL}investments/add`, { method: "POST", ... });
 
 ### 5️⃣ Recommended Tools
 
-VS Code → Editor with Live Server
-
-Google Chrome / Edge → For testing
-
-Postman → For testing backend APIs
-
-Bootstrap 5 → UI framework (already included in assets/)
+- VS Code → Editor with Live Server
+- Google Chrome / Edge → For testing
+- Postman → For testing backend APIs
+- Bootstrap 5 → UI framework (already included in assets/)
 
 ---
 
