@@ -173,3 +173,73 @@ Redeem mutual fund investments from user account.
 ```bash
 git clone https://github.com/jasmine-1612/Mutual-Fund-Platform-frontend-.git
 cd Mutual_Fund_Project_Frontend-master
+```
+
+### 2️⃣ Open the Project in a Browser
+
+Since this is a static frontend project, you can simply open index.html in your preferred browser:
+
+Double-click index.html or
+
+Right-click → Open With → Browser
+
+For development with live reload (optional):
+
+Use Live Server extension in VS Code
+
+Or run a simple HTTP server
+
+
+### 3️⃣ Connect to Backend APIs
+
+Make sure the Mutual Fund Backend is running on http://localhost:8188/.
+
+The frontend interacts with backend endpoints located in the api/ folder.
+
+Update API URLs in JavaScript files if your backend port or host differs.
+
+Example in investnow.js or portfolio_dashboard.js:
+
+```bash
+const BASE_URL = "http://localhost:8188/";
+fetch(`${BASE_URL}investments/add`, { method: "POST", ... });
+```
+
+### 4️⃣ Folder Structure Overview
+
+- index.html → Main landing page
+- investnow.html → Investment page
+- investor_dashboard.html → User dashboard
+- portfolio_dashboard.html → Portfolio analytics
+- redeem_investment.html → Redeem funds
+- view_transaction.html → View transaction history
+- create_MF.html → Admin/PM creates mutual funds
+- api/ → JS for API calls
+- assets/ → Images, CSS, JS libraries
+- forms/ → HTML forms and scripts
+
+### 5️⃣ Recommended Tools
+
+VS Code → Editor with Live Server
+
+Google Chrome / Edge → For testing
+
+Postman → For testing backend APIs
+
+Bootstrap 5 → UI framework (already included in assets/)
+
+---
+
+## Future Enhancements
+
+- 🔐 JWT authentication integration
+- ⚡ Dynamic charting with real-time data
+- 🖥 Admin dashboard with more analytics
+- 🌐 Multi-user role management (Investors & Portfolio Managers)
+
+
+---
+
+## 👩‍💻 Author
+Developed by Jasmine ✨
+
